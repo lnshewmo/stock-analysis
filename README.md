@@ -17,7 +17,7 @@ For this project we were tasked with writing a VBA script which looks at the tra
 
 ### 2017
 
-Overall this subset of green stocks performed well for the year 2017, with one exception (TERP).  DQ specifically had the highest rate of return for the year at 199%.  The trading volume stands out as relatively low for 2017. This metric should be interpreted in by the client with the return rate to infer trends in buyer's interests in this share.  Refer to the table below which shows the trading volume and percent return.
+Overall this subset of green stocks performed well for the year 2017, with one exception (TERP).  DQ specifically had the highest rate of return for the year at 199%.  The trading volume stands out as relatively low for 2017. This metric should be interpreted by the client together with the return rate to determine its significance.  Refer to the table below which shows the trading volume and percent return.
 
 ![image 2017 returns](/resources/2017_Stock_Performance_with_Timer.png)
 
@@ -29,7 +29,7 @@ A clear downward trend with significant losses for DQ (-62.6%) occurred in 2018.
 
 ### Summary
 
-ENPH performed well over both years with high trading volume and return in 2017 (129.5%) ***and*** still performed well for 2018 (81.9) while most of the remaining stocks lost value.  RUN is a second standout which with postive returns for both years (5.5% and 84% for 2017 and 2018).  The client may consider recommending these stocks alternative candidates for his investor's portfolio.  There may be too much volatility in the DQ stock for the investor's portfolio.
+ENPH performed well over both years with high trading volume and return in 2017 (129.5%) ***and*** still performed well for 2018 (81.9%) while most of the remaining stocks lost value.  RUN is a second standout which with postive returns for both years (5.5% and 84% returns for 2017 and 2018).  The client may consider recommending these stocks alternative candidates for his investor's portfolio.  There may be too much volatility in the DQ stock for the investor's portfolio.
 
 ## Refactoring the Code
 
