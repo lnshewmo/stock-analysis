@@ -58,7 +58,7 @@ For the refactoring, a `tickerIndex` was created and the `tickerVolumes` `ticker
 
 ![image 2018 refactor](/resources/Refactored_2018_Stock_Performance_with_Buttons_and_Timer.png)
 
-  - Time to run the code for 2018: 0.0664 seconds
+  - Time to run the code for 2018: 0.0625 seconds
 
 ## Summary
 
