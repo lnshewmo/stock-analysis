@@ -1,23 +1,25 @@
 # Excel VBA Green Stocks Analysis
 
+The spreadsheet used for this analysis can be accessed **[here.](https://github.com/lnshewmo/stock-analysis/blob/1366febf319138f38406bfc98c1c1255480e4590/VBA_Challenge.xlsm)**
+
 ## Project Overview
   
 For this project we were tasked with writing a VBA script which looks at the trading volume and annual return of 12 different green energy stocks in 2017 and 2018.  The data supplied for the analysis is contained in an Excel Workbook.  The client, a financial advisor, is initially interested in the performance of Daqo (DQ) based on his client's preferences, but to better inform his investment strategy he would like to compare its performance against these other 11 green companies.  His goal is to help guide the investors toward selecting a green stock with a history of high return.  An initial analysis was completed which provided the metrics for the green stocks investment strategy.  However he would now like the script to have capability to evaluate more stocks over a larger time period.  To accomplish this, the code was refactored for efficiency.
 
   **GOALS**
+    
     - Review the performance of (DQ) across 2017 to 2018
     - Refactor the analysis code for efficiency and larger data set capability
   
 ## Results
 
-### Stock Performance
+### Stock Performance 2017 vs 2018
 
-#### 2017 vs 2018
+#### 2017
 
-##### 2017
+Overall this subset of green stocks performed well for the year 2017, with one exception (TERP).  DQ specifically had the highest rate of return for the year at 199%.  The trading volume stands out as relatively low for 2017. This metric should be interpreted in by the client with the return rate to infer trends in buyer's interests in this share.  Refer to the table below which shows the trading volume and percent return.
 
-Overall all these green stocks performed well for the year 2017, with one exception (TERP).  DQ specifically had the highest rate of return for the year at 199%.  The trading volume stands out as relatively low for 2017. This metric should be interpreted in by the client with the return rate to infer trends in buyer's intrests in this share.
-
+/stock-analysis/resources/2017 Stock Performance with Timer.png
 image 2017 returns
 
 #### 2018
