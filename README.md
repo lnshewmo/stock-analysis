@@ -48,7 +48,7 @@ Referring back to previous images you can see:
 
 ### Refactoring
 
-The refactored code can be viewed **[here.](refactored_green_stocks.vbs)
+The refactored code can be viewed **[here.](refactored_green_stocks.vbs)**
 
 For the refactoring, a `tickerIndex` was created and the `tickerVolumes` `tickerStartingPrices` and `tickerEndingPrices` were defined as arrays to store the values until triggered to output in the table.  This allows us to un-nest the remaining loops. The first loop reset all `tickerVolume` for all tickers.  The next loop uses the `tickerIndex` to pick up the data for that ticker and stores it in the array variable for `tickerVolumes` `tickerStartingPrices` and `tickerEndingPrices`.  When the next row's ticker doesn't match, it will increase the tickerIndex.  The next loop outputs the stored values in table and the final loop formats the table.  
 
